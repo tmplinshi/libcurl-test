@@ -1,4 +1,7 @@
-﻿; Return: If this function returns NULL, something went wrong and you cannot use the other curl functions. 
+; Credits: https://github.com/RaptorX/cURL-Wrapper
+
+
+; Return: If this function returns NULL, something went wrong and you cannot use the other curl functions. 
 curl_easy_init() {
 	return DllCall("libcurl\curl_easy_init", "cdecl ptr")
 }
